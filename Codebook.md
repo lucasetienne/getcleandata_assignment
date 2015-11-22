@@ -14,14 +14,14 @@ The resulting data frame was exported to "assignment.txt".
 * subject: Variable value reflects the subject number (1-30)
 * activity: Variable reflects 1 of 6 measuring conditions (activities). These were labeled as 1-6 in the original dataset. They have been transformed to "WALKING", "WALKING_UPSTAIRS", "WALKING_DOWNSTAIRS", "SITTING", "STANDING", "LAYING", respectively
 * measurements (columns 3-68): These columns reflect the means per subject per activity for all measurement means and standard deviations.
-** Column names were derived from "features.txt". To improve readability any spaces, numerical caracters and "()" symbols were removed.
-** How to read column variables 3-68 per element of the column name:
-*** element 1: "t" or "f". leading character "t" denotes time; leading character "f" denotes Fast Fourier Transform of the variable
-*** element 2: "Body" or "Gravity". Denotes whether signal is derived from body movement or gravity (only applies to acceleration variables)
-*** element 3: "Acc" or "Gyro". Denotes whether signal originates from accelerometer ("Acc") or gyroscope ("Gyro")
-*** (optional) element 4: "Jerk", "Mag" or "JerkMag". Denotes whether signal is a Jerk or magnitude signal.
-*** dash: "-"
-*** element 5: the element that follows the dash denotes whether the value is mean ("mean") or standard deviation ("std")
-*** (optional) dash: "-"
-*** element 6: "X", "Y", "Z" or "XYZ". Denotes over which axis the signal was measured, or whether it is a 3-axial signal ("XYZ")
+  * Column names were derived from "features.txt". To improve readability any spaces, numerical caracters and "()" symbols were removed.
+  * How to read column variables 3-68 per element of the column name:
+    * element 1: "t" or "f". leading character "t" denotes time; leading character "f" denotes Fast Fourier Transform of the variable
+    * element 2: "Body" or "Gravity". Denotes whether signal is derived from body movement or gravity (only applies to acceleration variables)
+    * element 3: "Acc" or "Gyro". Denotes whether signal originates from accelerometer ("Acc") or gyroscope ("Gyro")
+    * (optional) element 4: "Jerk", "Mag" or "JerkMag". Denotes whether signal is a Jerk or magnitude signal.
+    *  dash: "-"
+    *  element 5: the element that follows the dash denotes whether the value is mean ("mean") or standard deviation ("std")
+    *  (optional) dash: "-"
+    *  element 6: "X", "Y", "Z" or "XYZ". Denotes over which axis the signal was measured, or whether it is a 3-axial signal ("XYZ")
 
